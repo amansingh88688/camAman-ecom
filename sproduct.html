@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>camAman</title>
+    <link rel = "icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR62WF6ZXUnYyNxPKcdZAXAsjl9YGkU0NqCCg&usqp=CAU" type = "image/x-icon">
+    <script src="https://kit.fontawesome.com/95a1f26c34.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!----------------------------header section starts---------------------- -->
+    <section id="header">
+        <a href="index.html"><img src="img/camaman.png " alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                    <div class="circle">3</div>
+                </li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <div class="circle">3</div>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <!-- --------------------------header section ends---------------------- -->
+
+
+
+    <!----------------------------header section starts---------------------- -->
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="images/professional/main camera.png" width="100%" id="MainImg" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="images/professional/main camera.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/compact/1.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/compact/3.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/compact/4.png" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Home / Professional</h6>
+            <h4>Photographer's first Choice</h4>
+            <h2>Rs. 2,74,190<h2>
+            <select>
+                <option>Select Lens</option>
+                <option>14mm - 35mm</option>
+                <option>35mm - 85mm</option>
+                <option>85mm - 135mm</option>
+                <option>135mm - 200mm</option>
+                <option>200mm+</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal" onclick="change_num()">Add to Cart</button>
+            <h4>Product Details</h4>
+            <span>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                literature</span>
+        </div>
+    </section>
+
+
+    <!-- --------------------------product section starts---------------------- -->
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="pro-container">
+
+            <div class="pro">
+                <img src="images/dslr/1.png" alt="">
+                <div class="des">
+                    <span>dslr</span>
+                    <h5>Nikon D850 Camera DSLR 45.7MP CMOS Body</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs. 1,09,990</h4>
+                </div>
+                <i id="cartbtn" class="fal fa-shopping-cart cart" onclick="change_num()"></i>
+            </div>
+            <div class="pro">
+                <img src="images/dslr/2.png" alt="">
+                <div class="des">
+                    <span>dlsr</span>
+                    <h5>Canon EOS 6D Mark II Camera DSLR 26.2MP CMOS Body</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs. 89,890</h4>
+                </div>
+                <i id="cartbtn" class="fal fa-shopping-cart cart" onclick="change_num()"></i>
+            </div>
+            <div class="pro">
+                <img src="images/dslr/3.png" alt="">
+                <div class="des">
+                    <span>dslr</span>
+                    <h5>Nikon D7500 Camera DSLR 20.9MP CMOS 4K Kit 18-140 mm</h5>
+                    <div class="star">
+                       <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs. 79,990</h4>
+                </div>
+                <i id="cartbtn" class="fal fa-shopping-cart cart" onclick="change_num()"></i>
+            </div>
+            <div class="pro">
+                <img src="images/dslr/4.png" alt="">
+                <div class="des">
+                    <span>dslr</span>
+                    <h5>Canon EOS 250D Kit with Camera Lens EF-S 18-55mm DC Black</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs. 11,49,999</h4>
+                </div>
+                <i id="cartbtn" class="fal fa-shopping-cart cart" onclick="change_num()"></i>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------product section ends---------------------- -->
+    <!-- --------------------------header section ends---------------------- -->
+
+
+
+    <!-- --------------------------newsletter section starts---------------------- -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    <!-- --------------------------newletter section ends---------------------- -->
+
+
+
+    <!-- --------------------------footer section starts---------------------- -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> Indian Institute of Technology Madras, Chennai, Tamil Nadu-600036</p>
+            <p><strong>Phone: </strong> +91 8868857492</p>
+            <p><strong>Hours: </strong> 10:00 - 18:00 Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © <span class="footpara"></span> @Aman Singh.All Right Reserved. </p>
+        </div>
+    </footer>
+    <!-- --------------------------footer section ends---------------------- -->
+
+
+    <script src="scripts/addcart.js"></script>
+    <script src="scripts/cart.js"></script>
+    <script src="scripts/sproduct.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
