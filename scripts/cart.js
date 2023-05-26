@@ -21,5 +21,5 @@ function applied(){
 }
 function ordered(){
     alert("Ordered Successfully");
-    window.location.href = "index.html";
+    location.href = "index.html";
 }
